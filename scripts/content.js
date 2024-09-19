@@ -1,4 +1,8 @@
-var region = $('#awsc-navigation__more-menu--list > li:nth-child(2) > div > button > span > span').text().trim();
+var regionElem = document.querySelector("#awsc-navigation__more-menu--list > li:nth-child(3) > div > button > span > span");
+var region = null;
+if (regionElem != null) {
+  var region = regionElem.textContent;
+}
 if (region != null) {
   console.log("Region : -" + region + "-");
 }

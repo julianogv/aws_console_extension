@@ -1,10 +1,5 @@
 {
-    "browser_specific_settings": {
-        "gecko": {
-            "id": "{3cdafb93-7c8b-45c0-b555-b092bad1c797}",
-            "strict_min_version": "57.0"
-        }
-    },
+
     "manifest_version": 2,
     "name": "AWS console regions color",
     "description": "Changes the AWS console header color depending on the region you selected. We use the Flags Icon Pack from Iconscout.",
